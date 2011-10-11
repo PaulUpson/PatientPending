@@ -1,0 +1,5 @@
+Patient Pending is an attempt to collaboratively build a patient administration application that isn't complex to use, extend or maintain. Essentially unlike any other PAS system out there.
+
+A secondary aim of this sample application is to further our knowledge of key software patterns and practices in a domain that we know relatively well.
+
+Constraints:
