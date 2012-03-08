@@ -1,0 +1,58 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Bus/f:SimpleBus.cs" caret="2017" fromTop="63" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:EventStore/f:SqlEventStore.cs" caret="2949" fromTop="72" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:ViewRebuilder.cs" caret="631" fromTop="18" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:SqlActuator.cs" caret="353" fromTop="10" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:IMessage.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:IIdentityGenerator.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:IEventStore.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:Event.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Extensions/f:DynamicExtensions.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/f:Command.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:EventStore/f:InMemoryEventStore.cs" caret="2717" fromTop="87" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Domain/f:AggregateRoot.cs" caret="359" fromTop="14" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Domain/f:Repository.cs" caret="0" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:Title.cs" caret="188" fromTop="10" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:Gender.cs" caret="104" fromTop="4" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Commands/f:AddPatient.cs" caret="859" fromTop="23" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Extensions/f:Extensions.cs" caret="1433" fromTop="33" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="13" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:EventConverters/f:EventConverter.cs" caret="1569" fromTop="41" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="963" fromTop="19" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:CommandHandlers/f:PatientCommandHandlers.cs" caret="612" fromTop="11" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Domain/f:Patient.cs" caret="493" fromTop="14" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:Title.cs" caret="188" fromTop="10" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Commands/f:AddPatient.cs" caret="753" fromTop="16" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:Gender.cs" caret="104" fromTop="4" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Commands/f:AddPatient.cs" caret="565" fromTop="11" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="702" fromTop="11" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="1084" fromTop="25" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="1073" fromTop="34" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Extensions/f:Extensions.cs" caret="1064" fromTop="25" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="163" fromTop="3" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="465" fromTop="12" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Commands/f:AddPatient.cs" caret="508" fromTop="14" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Commands/f:AddPatient.cs" caret="859" fromTop="23" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Domain/f:Patient.cs" caret="718" fromTop="15" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="253" fromTop="11" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Extensions/f:Extensions.cs" caret="832" fromTop="19" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="229" fromTop="8" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Domain/f:Patient.cs" caret="209" fromTop="8" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="1202" fromTop="36" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Infrastructure/d:Extensions/f:Extensions.cs" caret="1433" fromTop="33" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:ValueTypes/f:NHSNumber.cs" caret="13" fromTop="0" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:CommandHandlers/f:PatientCommandHandlers.cs" caret="612" fromTop="11" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="1461" fromTop="38" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="646" fromTop="27" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="372" fromTop="14" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="556" fromTop="19" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="216" fromTop="7" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:EventConverters/f:EventConverter.cs" caret="520" fromTop="10" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:EventConverters/f:EventConverter.cs" caret="1569" fromTop="21" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Domain/f:Patient.cs" caret="493" fromTop="14" />
+    <File id="1D51A546-B093-46B4-A407-E9A7A4F10880/d:Events/f:PatientAdded.cs" caret="963" fromTop="19" />
+  </RecentEdits>
+</RecentFiles>
