@@ -34,14 +34,14 @@ From the above example you can see that we are defining the Specification as bei
 The output when this specification is run looks like this:
 
 	[Passed] Scenario A adding a patient - successful adding of patient
-		When: Adding a Project named 'Mr Test Patient' with Id c16380f0-9391-4148-9196-7df0f4c6f06a.
+		When: Adding a Patient named 'Mr Test Patient' with Id c16380f0-9391-4148-9196-7df0f4c6f06a.
 				With NHS Number :401 023 2137
 				With a middle name of 'A'
 				With a gender of 'Male'
 				With a date of birth of 14 January 1981
 
 		Expectations:
-		  [Passed] A Project named 'Mr Test Patient' with Id c16380f0-9391-4148-9196-7df0f4c6f06a was added.
+		  [Passed] A Patient named 'Mr Test Patient' with Id c16380f0-9391-4148-9196-7df0f4c6f06a was added.
 				With NHS Number :401 023 2137
 				With a middle name of 'A'
 				With a gender of 'Male'
