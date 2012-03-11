@@ -47,6 +47,7 @@ The output when this specification is run looks like this:
 				With a gender of 'Male'
 				With a date of birth of 14 January 1981
 	------------------------------------------------------------
+This detailed output is achieved by simply calling .ToString() on the Commands/Events, displaying the contents of the Messages.
 
 ### TODO
 * Extend the UI to show examples
