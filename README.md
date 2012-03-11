@@ -9,7 +9,8 @@ Initial commit contained the basis of a light-weight CQRS 'framework' borrowing 
 ## Simple.Testing
 
 We've just introduced [Simple.Testing](https://github.com/gregoryyoung/Simple.Testing) style specifications. The purpose of Simple.Testing (a concept initially devised by [Greg Young](http://www.twitter.com/gregyoung)) is to remove dependencies on 'heavy' testing frameworks whilst enabling the definition of testing specifications as close to the **Ubiquitous Language of the Business Domain**.  One of the key points Greg makes is that once you start introducing mocks into your tests you are inherently testing against artificial state.  Simple.Testing allows you to avoid a reliance on mocking frameworks and assert directly against the same state that will be arrived at in production.  Here's an example:
-public class adding_a_patient : ContainsSpecifications {
+public class adding_a_patient : ContainsSpecifications 
+{
         private static readonly int UserId = 1;
         private static readonly Guid PatientId = Guid.NewGuid();
 
