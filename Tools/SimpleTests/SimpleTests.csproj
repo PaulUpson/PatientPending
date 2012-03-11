@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{861D2282-FC25-424A-BA0C-84FFC3798C51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Simple.Testing</RootNamespace>
+    <AssemblyName>SimpleTests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PAssert\Annotations.cs" />
+    <Compile Include="PAssert\Extensions.cs" />
+    <Compile Include="PAssert\Infrastructure\ExpressionParser.cs" />
+    <Compile Include="PAssert\Infrastructure\NaturalExpressionProcessor.cs" />
+    <Compile Include="PAssert\Infrastructure\NodeFormatter.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\ArrayIndexNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\BinaryNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\ConditionalNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\ConstantNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\MemberAccessNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\MethodCallNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\NewArrayNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\Node.cs" />
+    <Compile Include="PAssert\Infrastructure\Nodes\UnaryNode.cs" />
+    <Compile Include="PAssert\Infrastructure\Util.Generated.cs" />
+    <Compile Include="PAssert\PAssert.cs" />
+    <Compile Include="SimpleTests.cs" />
+    <Compile Include="CompareObjects.cs" />
+    <Compile Include="FailingSpecification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

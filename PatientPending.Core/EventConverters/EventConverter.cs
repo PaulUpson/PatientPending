@@ -38,9 +38,11 @@ namespace PatientPending.Core
     {
         public PatientAdded_v2 Convert(PatientAdded sourceEvent) {
             var theEvent = new PatientAdded_v2(sourceEvent.UserId, sourceEvent.PatientId, sourceEvent.FirstName,
-                                               sourceEvent.Surname, string.Empty, sourceEvent.Title, Gender.Other,
+                                               sourceEvent.Surname, string.Empty, sourceEvent.Title, Gender.Unknown,
                                                DateTime.MinValue, sourceEvent.NhsNumber);
             theEvent.Version = sourceEvent.Version;
+            theEvent.UserId = sourceEvent.UserId;
+            theEvent.Timestamp = sourceEvent.Timestamp;
             return theEvent;
         }
     }

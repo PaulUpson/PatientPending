@@ -25,7 +25,7 @@ namespace PatientPending.Core
             return text.Replace(" ", "");
         }
 
-        public static int[] ToIntArray(this int number) {
+        public static int[] ToIntArray(this long number) {
             return number.ToString(CultureInfo.InvariantCulture).ToIntArray();
         }
 
@@ -43,8 +43,8 @@ namespace PatientPending.Core
             }
         }
 
-        public static int ToInt32(this IEnumerable<int> numberGroup) {
-            return Int32.Parse(numberGroup.Select(x => x.ToString(CultureInfo.InvariantCulture))
+        public static long ToLong(this IEnumerable<int> numberGroup) {
+            return Int64.Parse(numberGroup.Select(x => x.ToString(CultureInfo.InvariantCulture))
                                    .Aggregate((complete, next) => complete + next));
         }
 

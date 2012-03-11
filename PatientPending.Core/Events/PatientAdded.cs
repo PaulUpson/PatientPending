@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace PatientPending.Core {
     public class PatientAdded : Event {
@@ -42,6 +43,17 @@ namespace PatientPending.Core {
             Gender = gender;
             DateOfBirth = dateOfBirth;
             NhsNumber = nhsNumber;
+        }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+            sb.AppendFormat("A Project named '{0} {1} {2}' with Id {3} was added.", Title, FirstName, Surname, PatientId);
+            sb.AppendWithIndent("With NHS Number :{0}", NhsNumber);
+            sb.AppendWithIndent("With a middle name of '{0}'", MiddleName);
+            sb.AppendWithIndent("With a gender of '{0}'", Gender);
+            sb.AppendWithIndent("With a date of birth of {0}", DateOfBirth.ToLongDateString());
+            return sb.ToString().TrimStart('\n');
         }
     }
 }
