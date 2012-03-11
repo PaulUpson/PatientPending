@@ -31,6 +31,23 @@ We've just introduced [Simple.Testing](https://github.com/gregoryyoung/Simple.Te
 
 From the above example you can see that we are defining the Specification as being for the **AddPatient** event. We specify an appropriate handler for the command, we define our _When_ condition which in this case is an **AddPatient** command, and then we define our expectations, which is a collection of events.  You can see here that we are using a fluent event builder rather than specifying the event itself, and there's a good reason for this. One of the CQRS mantras is make only additive changes. So when we need to introduce additional functionality we introduce a new event (see PatientAdded_v2 for example). Now since our events are likely to change as the system evolves it's better to mask the actual event thats being expected so that when our events are up-versioned we do not change our tests, only the event returned by the builder.
 
+The output when this specification is run looks like this:
+	[Passed] Scenario A adding a patient - successful adding of patient
+
+	When: Adding a Project named 'Mr Test Patient' with Id c16380f0-9391-4148-9196-7df0f4c6f06a.
+			With NHS Number :401 023 2137
+			With a middle name of 'A'
+			With a gender of 'Male'
+			With a date of birth of 14 January 1981
+
+	Expectations:
+	  [Passed] A Project named 'Mr Test Patient' with Id c16380f0-9391-4148-9196-7df0f4c6f06a was added.
+			With NHS Number :401 023 2137
+			With a middle name of 'A'
+			With a gender of 'Male'
+			With a date of birth of 14 January 1981
+	------------------------------------------------------------
+
 ### TODO
 * Extend the UI to show examples
 * Extend the set of example Specifications
