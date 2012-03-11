@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace PatientPending.Core {
     public struct NHSNumber {
-        private static readonly Regex NumericRegex = new Regex("\\d+\\");
+        private static readonly Regex NumericRegex = new Regex("\\d+");
         private readonly int[] _number;
 
         public NHSNumber(int number) {
